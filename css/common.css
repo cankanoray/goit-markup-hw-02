@@ -1,0 +1,73 @@
+:root {
+    --main-text-color: #212121;
+    --second-text-color: #757575;
+    --text-color-dark: #FFFFFF;
+    --accent-color: #2196F3;
+    --text-contacts-footer: rgba(255, 255, 255, 0.6);
+    --main-background-color: #FFFFFF;
+    --second-background-color: #F5F4FA;
+    --dark-background-color: #2F303A;
+}
+
+.list {
+    list-style: none;
+}
+
+
+/* Logo header */
+.page-header .logo-web {
+    color: var(--accent-color);
+}
+
+.page-header .logo-studio {
+    color: #000000;
+}
+
+/* Site nav */
+.site-nav .link {
+    color: var(--main-text-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+
+/* Header contacts */
+.header-mail:hover {
+    color: var(--accent-color);
+}
+
+.header-mail {
+    color: var(--second-text-color);
+}
+
+/* Header hover and focus stilisation */
+/* .site-nav .link:hover,
+.site-nav .link:focus,
+.header-phone:hover,
+.header-phone:focus   
+.header-mail:hover,
+.header-mail:focus */
+
+
+
+/* Footer */
+.footer {
+    background-color: var(--dark-background-color);
+}
+.footer .logo-web {
+    color: var(--accent-color);
+}
+
+.footer .logo-studio {
+    color: var(--text-color-dark);
+}
+
+.footer .addres {
+    color: var(--text-color-dark);
+}
+.footer .mail-phone {
+    color: var(--text-contacts-footer);
+}
+

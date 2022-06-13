@@ -1,0 +1,58 @@
+
+
+/* Hero stilization */
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: var(--text-color-dark);
+}
+.hero-button {
+    background-color: var(--accent-color);
+    color: var(--text-color-dark);    
+}
+
+
+/* Section stilization */
+.section-title {
+    color: var(--main-text-color);
+}
+
+/* Features stilization*/
+.features-list {
+    list-style: none;
+}
+.features-list .title {
+    color: var(--main-text-color);
+}
+.features-list .text {
+    color: var(--second-text-color);
+}
+
+
+/* Team and pictures */
+.picture-title {
+    color: var(--main-text-color);
+}
+.picture-description {
+    color: var(--second-text-color);
+}
+.team {
+    background-color: var(--second-background-color);
+}
+
+
+/* Potrfolio */
+
+
+/* Portfolio buttons */
+.portfolio .button {
+    background-color: var(--second-background-color);
+    color: var(--main-text-color);
+}
+
+.portfolio .button:hover {
+    background-color: var(--accent-color);
+    color: var(--text-color-dark);
+}
